@@ -24,9 +24,9 @@ def first_non_repeating_char(s: str) -> str:
             return char
     
     # If no non-repeating character is found
-    return ""
+    return "none"
 
 # Example usage:
-input_string = "swiss"
+input_string = ""  #swiss
 result = first_non_repeating_char(input_string)
 print(f"The first non-repeating character in '{input_string}' is: {result}")

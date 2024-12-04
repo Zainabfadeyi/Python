@@ -29,9 +29,9 @@ def first_non_repeating_char_queue(s: str) -> str:
             queue.popleft()
     
     # The first character in the queue is the first non-repeating character
-    return queue[0] if queue else ""
+    return queue[0] if queue else "none"
 
 # Example usage:
-input_string = "swiss"
+input_string = "" #swiss
 result = first_non_repeating_char_queue(input_string)
 print(f"The first non-repeating character in '{input_string}' is: {result}")
